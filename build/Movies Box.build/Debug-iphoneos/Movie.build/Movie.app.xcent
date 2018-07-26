@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>QW3MPB2KJW.com.fm2apps.Movie</string>
+	<string>QW3MPB2KJW.com.FM2Apps.MovieBox</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>QW3MPB2KJW</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>QW3MPB2KJW.com.fm2apps.Movie</string>
+		<string>QW3MPB2KJW.com.FM2Apps.MovieBox</string>
 	</array>
 </dict>
 </plist>

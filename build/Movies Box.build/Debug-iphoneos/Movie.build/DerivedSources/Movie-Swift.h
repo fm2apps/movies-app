@@ -355,19 +355,6 @@ SWIFT_CLASS("_TtC5Movie9PopularVC")
 @end
 
 
-SWIFT_CLASS("_TtC5Movie20TermsAndConditionsVC")
-@interface TermsAndConditionsVC : UIViewController <UITableViewDataSource, UITableViewDelegate>
-@property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified topView;
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
-- (void)viewDidLoad;
-- (IBAction)backButtonPressed:(UIButton * _Nonnull)sender;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
 SWIFT_CLASS("_TtC5Movie10TopratedVC")
 @interface TopratedVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
 @property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified topView;

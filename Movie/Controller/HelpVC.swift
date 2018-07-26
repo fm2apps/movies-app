@@ -14,8 +14,8 @@ class HelpVC: UIViewController, UITableViewDelegate, UITableViewDataSource,MFMai
     @IBOutlet weak var topView: CustomSizeUIView!
     
     @IBOutlet weak var helpTableView: UITableView!
-    let settingsTableElements = ["About Movie Box", "About FM2Apps LLC", "Terms and Conditions", "Send Feedback"]
-    let helpTableImages = [UIImage(named: "movie-icon"),UIImage(named: "FM2Apps"), UIImage(named: "terms"),UIImage(named: "feed-back")]
+    let settingsTableElements = ["About Movies Box", "About FM2Apps LLC", "Send Feedback"]
+    let helpTableImages = [UIImage(named: "movie-icon"),UIImage(named: "FM2Apps"),UIImage(named: "feed-back")]
     override func viewDidLoad() {
         super.viewDidLoad()
         topView.configureSize()
@@ -40,7 +40,6 @@ class HelpVC: UIViewController, UITableViewDelegate, UITableViewDataSource,MFMai
         switch indexPath.row {
         case 0 : performSegue(withIdentifier: TO_ABOUT_MOVIES, sender: nil)
         case 1 : performSegue(withIdentifier: TO_ABOUT_US, sender: nil)
-        case 2 : performSegue(withIdentifier: TO_TERMS, sender: nil)
         default : sendMail()
         }
         

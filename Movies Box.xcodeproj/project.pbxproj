@@ -17,7 +17,6 @@
 		2F7E38602100A0F5007CBA7F /* MovieDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E385F2100A0F5007CBA7F /* MovieDetailsVC.swift */; };
 		2F7E38622100BE64007CBA7F /* HelpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E38612100BE64007CBA7F /* HelpCell.swift */; };
 		2F7E38642100C1DF007CBA7F /* AboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E38632100C1DF007CBA7F /* AboutUsVC.swift */; };
-		2F7E38662100C1F2007CBA7F /* TermsAndCondtitionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E38652100C1F2007CBA7F /* TermsAndCondtitionsVC.swift */; };
 		2F7E38682100C200007CBA7F /* AboutAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E38672100C200007CBA7F /* AboutAppVC.swift */; };
 		2F7E386A2100C393007CBA7F /* AboutUsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E38692100C393007CBA7F /* AboutUsCell.swift */; };
 		2F9BE20F210771C300ED952C /* TopratedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9BE20E210771C300ED952C /* TopratedVC.swift */; };
@@ -42,7 +41,6 @@
 		2F7E385F2100A0F5007CBA7F /* MovieDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsVC.swift; sourceTree = "<group>"; };
 		2F7E38612100BE64007CBA7F /* HelpCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpCell.swift; sourceTree = "<group>"; };
 		2F7E38632100C1DF007CBA7F /* AboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsVC.swift; sourceTree = "<group>"; };
-		2F7E38652100C1F2007CBA7F /* TermsAndCondtitionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndCondtitionsVC.swift; sourceTree = "<group>"; };
 		2F7E38672100C200007CBA7F /* AboutAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppVC.swift; sourceTree = "<group>"; };
 		2F7E38692100C393007CBA7F /* AboutUsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsCell.swift; sourceTree = "<group>"; };
 		2F9BE20E210771C300ED952C /* TopratedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopratedVC.swift; sourceTree = "<group>"; };
@@ -133,7 +131,6 @@
 				2F4FA5F020FF755F0098CEBD /* HelpVC.swift */,
 				2F7E385F2100A0F5007CBA7F /* MovieDetailsVC.swift */,
 				2F7E38632100C1DF007CBA7F /* AboutUsVC.swift */,
-				2F7E38652100C1F2007CBA7F /* TermsAndCondtitionsVC.swift */,
 				2F7E38672100C200007CBA7F /* AboutAppVC.swift */,
 			);
 			path = Controller;
@@ -210,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2FCA90D520FF679E00DAAE05 /* Build configuration list for PBXProject "Movie Box" */;
+			buildConfigurationList = 2FCA90D520FF679E00DAAE05 /* Build configuration list for PBXProject "Movies Box" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -293,7 +290,6 @@
 				2F4FA5F320FF78800098CEBD /* Movie.swift in Sources */,
 				2FCA90E020FF679E00DAAE05 /* PopularVC.swift in Sources */,
 				2FCA90E620FF679E00DAAE05 /* Movie.xcdatamodeld in Sources */,
-				2F7E38662100C1F2007CBA7F /* TermsAndCondtitionsVC.swift in Sources */,
 				2F7E38682100C200007CBA7F /* AboutAppVC.swift in Sources */,
 				2F9BE20F210771C300ED952C /* TopratedVC.swift in Sources */,
 				2F7E386A2100C393007CBA7F /* AboutUsCell.swift in Sources */,
@@ -486,7 +482,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2FCA90D520FF679E00DAAE05 /* Build configuration list for PBXProject "Movie Box" */ = {
+		2FCA90D520FF679E00DAAE05 /* Build configuration list for PBXProject "Movies Box" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2FCA90ED20FF679F00DAAE05 /* Debug */,

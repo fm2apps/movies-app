@@ -258,7 +258,6 @@
                         <outlet property="helpTableView" destination="lSO-77-OwY" id="23e-a2-5Oa"/>
                         <outlet property="topView" destination="OIb-0B-PnS" id="F6h-EA-eU5"/>
                         <segue destination="5NE-oh-IMs" kind="show" identifier="toAboutUs" id="431-sd-xh2"/>
-                        <segue destination="fHk-JH-vD5" kind="show" identifier="toTerms" id="3et-5u-NGB"/>
                         <segue destination="IOy-Xt-OQb" kind="show" identifier="toAboutMovies" id="qox-vS-Ctc"/>
                     </connections>
                 </viewController>
@@ -388,119 +387,6 @@
             </objects>
             <point key="canvasLocation" x="-2276" y="1204.9475262368817"/>
         </scene>
-        <!--Terms And ConditionsVC-->
-        <scene sceneID="f65-UB-N6V">
-            <objects>
-                <viewController id="fHk-JH-vD5" customClass="TermsAndConditionsVC" customModule="Movie" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Kq4-jv-Ht1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gay-lk-ceZ" customClass="CustomSizeUIView" customModule="Movie" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms and Conditions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IY2-Q1-Mn1">
-                                        <rect key="frame" x="0.0" y="38.333333333333336" width="375" height="21.666666666666664"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="18"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAD-J4-F8W">
-                                        <rect key="frame" x="8" y="39.666666666666664" width="20" height="20"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="20" id="rFy-1S-eeq"/>
-                                            <constraint firstAttribute="height" constant="20" id="zHo-KF-yO6"/>
-                                        </constraints>
-                                        <state key="normal" image="back_button"/>
-                                        <connections>
-                                            <action selector="backButtonPressed:" destination="fHk-JH-vD5" eventType="touchUpInside" id="8bE-6a-868"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstItem="ZAD-J4-F8W" firstAttribute="centerY" secondItem="IY2-Q1-Mn1" secondAttribute="centerY" id="2wa-Td-KdK"/>
-                                    <constraint firstItem="IY2-Q1-Mn1" firstAttribute="centerX" secondItem="Gay-lk-ceZ" secondAttribute="centerX" id="4cV-6S-jdK"/>
-                                    <constraint firstItem="ZAD-J4-F8W" firstAttribute="leading" secondItem="Gay-lk-ceZ" secondAttribute="leading" constant="8" id="QY8-R0-GWX"/>
-                                    <constraint firstAttribute="height" constant="70" id="Qs5-nF-dOe"/>
-                                    <constraint firstAttribute="bottom" secondItem="IY2-Q1-Mn1" secondAttribute="bottom" constant="10" id="QyB-Ta-5a5"/>
-                                    <constraint firstItem="IY2-Q1-Mn1" firstAttribute="leading" secondItem="Gay-lk-ceZ" secondAttribute="leading" id="fjO-8Y-Eby"/>
-                                    <constraint firstAttribute="trailing" secondItem="IY2-Q1-Mn1" secondAttribute="trailing" id="mqK-Eb-Gea"/>
-                                </constraints>
-                            </view>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7G6-ss-xqv">
-                                <rect key="frame" x="0.0" y="70" width="375" height="708"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="aboutUsCell" rowHeight="133" id="1YV-PN-sM2" customClass="AboutUsCell" customModule="Movie" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="133"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1YV-PN-sM2" id="sda-Kn-AuR">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="132.66666666666666"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pPl-6P-uV2">
-                                                    <rect key="frame" x="10" y="12" width="350" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="30" id="uEg-r1-A4z"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="19"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9In-Jm-Zqo">
-                                                    <rect key="frame" x="10" y="52" width="355" height="70"/>
-                                                    <attributedString key="attributedText">
-                                                        <fragment content="Text">
-                                                            <attributes>
-                                                                <font key="NSFont" size="13" name="AppleSDGothicNeo-Regular"/>
-                                                                <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="0.80000000000000004" tighteningFactorForTruncation="0.0"/>
-                                                            </attributes>
-                                                        </fragment>
-                                                    </attributedString>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstAttribute="bottomMargin" secondItem="9In-Jm-Zqo" secondAttribute="bottom" id="4Ol-6D-yD7"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="pPl-6P-uV2" secondAttribute="trailing" id="9tY-cT-NaZ"/>
-                                                <constraint firstAttribute="trailing" secondItem="9In-Jm-Zqo" secondAttribute="trailing" constant="10" id="Kdw-3e-P3x"/>
-                                                <constraint firstItem="9In-Jm-Zqo" firstAttribute="leading" secondItem="sda-Kn-AuR" secondAttribute="leading" constant="10" id="NWC-kO-3bD"/>
-                                                <constraint firstItem="pPl-6P-uV2" firstAttribute="top" secondItem="sda-Kn-AuR" secondAttribute="topMargin" constant="1" id="Pga-Mf-9Md"/>
-                                                <constraint firstItem="9In-Jm-Zqo" firstAttribute="top" secondItem="pPl-6P-uV2" secondAttribute="bottom" constant="10" id="U0D-5s-aHR"/>
-                                                <constraint firstItem="pPl-6P-uV2" firstAttribute="leading" secondItem="sda-Kn-AuR" secondAttribute="leading" constant="10" id="p4Z-Hn-JAB"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="textLabel" destination="9In-Jm-Zqo" id="7gT-mn-Rqc"/>
-                                            <outlet property="titleLabel" destination="pPl-6P-uV2" id="b8f-Ou-M19"/>
-                                            <outlet property="txtLabel" destination="9In-Jm-Zqo" id="KJd-mk-5NA"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="7G6-ss-xqv" firstAttribute="leading" secondItem="TR8-Db-FXY" secondAttribute="leading" id="2KT-dt-hLm"/>
-                            <constraint firstItem="Gay-lk-ceZ" firstAttribute="top" secondItem="Kq4-jv-Ht1" secondAttribute="top" id="2Om-f5-L4J"/>
-                            <constraint firstItem="TR8-Db-FXY" firstAttribute="bottom" secondItem="7G6-ss-xqv" secondAttribute="bottom" id="7Gr-AS-nk5"/>
-                            <constraint firstItem="7G6-ss-xqv" firstAttribute="top" secondItem="Gay-lk-ceZ" secondAttribute="bottom" id="JA3-oY-VDd"/>
-                            <constraint firstItem="Gay-lk-ceZ" firstAttribute="leading" secondItem="TR8-Db-FXY" secondAttribute="leading" id="de3-cu-tIH"/>
-                            <constraint firstItem="TR8-Db-FXY" firstAttribute="trailing" secondItem="7G6-ss-xqv" secondAttribute="trailing" id="eoA-g7-VgG"/>
-                            <constraint firstAttribute="trailing" secondItem="Gay-lk-ceZ" secondAttribute="trailing" id="nGm-zi-lvh"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="TR8-Db-FXY"/>
-                    </view>
-                    <connections>
-                        <outlet property="tableView" destination="7G6-ss-xqv" id="uMs-9s-Md1"/>
-                        <outlet property="topView" destination="Gay-lk-ceZ" id="9Je-Sb-mH4"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Hvy-Co-5QA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1530.4000000000001" y="1204.9475262368817"/>
-        </scene>
         <!--About AppVC-->
         <scene sceneID="3lL-DH-dun">
             <objects>
@@ -512,14 +398,14 @@
                             <view alpha="0.84999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3t-Tc-mC3" customClass="CustomSizeUIView" customModule="Movie" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Movie Box" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nt-dn-72M">
-                                        <rect key="frame" x="0.0" y="38.666666666666664" width="375" height="21.666666666666664"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Movies Box" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0nt-dn-72M">
+                                        <rect key="frame" x="0.0" y="39" width="375" height="21.666666666666671"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="18"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ao0-Uf-Xhz">
-                                        <rect key="frame" x="8" y="40" width="20" height="20"/>
+                                        <rect key="frame" x="8" y="40.333333333333336" width="20" height="20"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="20" id="iT2-VF-Qes"/>
                                             <constraint firstAttribute="width" constant="20" id="qUn-UN-rrb"/>
@@ -548,8 +434,8 @@
                                     <constraint firstAttribute="height" constant="75" id="L4P-KB-DiW"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Movie Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6An-aw-S59">
-                                <rect key="frame" x="135.66666666666666" y="170" width="104" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Movies Box" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6An-aw-S59">
+                                <rect key="frame" x="130.66666666666666" y="170" width="114" height="27"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="22"/>
                                 <color key="textColor" red="0.92549020049999997" green="0.23529411850000001" blue="0.24228739160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -558,7 +444,7 @@
                                 <rect key="frame" x="10" y="242" width="355" height="171.66666666666663"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <string key="content">Movie Box is a Movie Trailers App that puts the newest HD movie previews in your hands. Browse trailers and clips  for the biggest Hollywood blockbusters and independent cinema, view stunning HD photos.
+                                        <string key="content">Movies Box is a Movie Trailers App that puts the newest HD movie previews in your hands. Browse trailers and clips  for the biggest Hollywood blockbusters and independent cinema, view stunning HD photos.
 
 Features: 
 • Access hundreds of movie trailers, clips, behind-the-scenes, and images, available in HD or SD.
