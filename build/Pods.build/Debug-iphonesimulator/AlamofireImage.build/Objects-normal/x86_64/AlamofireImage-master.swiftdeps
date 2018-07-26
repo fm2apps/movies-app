@@ -1,0 +1,13 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "6551252577c4bee168bf6ba96610def2"
+build_time: [1532525831, 161351000]
+inputs:
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/AFIError.swift": [1531918562, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/Image.swift": [1531918562, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/ImageCache.swift": [1531918562, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/ImageDownloader.swift": [1531918562, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/ImageFilter.swift": [1531918562, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/Request+AlamofireImage.swift": [1531918562, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/UIButton+AlamofireImage.swift": [1531918562, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/UIImage+AlamofireImage.swift": [1531918562, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/AlamofireImage/Source/UIImageView+AlamofireImage.swift": [1531918562, 0]

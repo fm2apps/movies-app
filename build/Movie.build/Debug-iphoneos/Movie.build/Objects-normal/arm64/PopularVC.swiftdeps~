@@ -1,0 +1,527 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PopularVC"
+provides-nominal:
+- "5Movie9PopularVCC"
+provides-member:
+- ["5Movie9PopularVCC", ""]
+provides-dynamic-lookup:
+- "imageView"
+- "viewDidLoad"
+depends-top-level:
+- !private "Alamofire"
+- !private "BASE_IMAGE_URL"
+- !private "GET_POPULAR_URL"
+- !private "JSON"
+- "Movie"
+- "PopularVC"
+- "UIImage"
+- "UIImageView"
+- "UIViewController"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s23BidirectionalCollectionP", "doubleValue"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "stringValue"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "BASE_IMAGE_URL"]
+- !private ["s7CVarArgP", "GET_POPULAR_URL"]
+- !private ["s7CVarArgP", "JSON"]
+- !private ["s7CVarArgP", "Movie"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "getAllImages"]
+- !private ["s7CVarArgP", "getPopularMovies"]
+- !private ["s7CVarArgP", "imagesArray"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "movies"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["s10CollectionP", "append"]
+- !private ["s10CollectionP", "doubleValue"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "stringValue"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s10ComparableP", "doubleValue"]
+- !private ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "stringValue"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "BASE_IMAGE_URL"]
+- !private ["s28CustomDebugStringConvertibleP", "GET_POPULAR_URL"]
+- !private ["s28CustomDebugStringConvertibleP", "JSON"]
+- !private ["s28CustomDebugStringConvertibleP", "Movie"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "doubleValue"]
+- !private ["s28CustomDebugStringConvertibleP", "getAllImages"]
+- !private ["s28CustomDebugStringConvertibleP", "getPopularMovies"]
+- !private ["s28CustomDebugStringConvertibleP", "imagesArray"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "movies"]
+- !private ["s28CustomDebugStringConvertibleP", "responseImage"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "BASE_IMAGE_URL"]
+- !private ["s23CustomStringConvertibleP", "GET_POPULAR_URL"]
+- !private ["s23CustomStringConvertibleP", "JSON"]
+- !private ["s23CustomStringConvertibleP", "Movie"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "doubleValue"]
+- !private ["s23CustomStringConvertibleP", "getAllImages"]
+- !private ["s23CustomStringConvertibleP", "getPopularMovies"]
+- !private ["s23CustomStringConvertibleP", "imagesArray"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "movies"]
+- !private ["s23CustomStringConvertibleP", "responseImage"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["9Alamofire11DataRequestC", "responseImage"]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["s9DecodableP", "append"]
+- !private ["s9DecodableP", "doubleValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "stringValue"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EncodableP", "doubleValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "stringValue"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "Alamofire"]
+- !private ["s9EquatableP", "BASE_IMAGE_URL"]
+- !private ["s9EquatableP", "GET_POPULAR_URL"]
+- !private ["s9EquatableP", "JSON"]
+- !private ["s9EquatableP", "Movie"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "append"]
+- !private ["s9EquatableP", "doubleValue"]
+- !private ["s9EquatableP", "getAllImages"]
+- !private ["s9EquatableP", "getPopularMovies"]
+- !private ["s9EquatableP", "imagesArray"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "movies"]
+- !private ["s9EquatableP", "stringValue"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "stringValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "doubleValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "stringValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "doubleValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "stringValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- !private ["s25ExpressibleByFloatLiteralP", "doubleValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "stringValue"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "doubleValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "stringValue"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- !private ["s23ExpressibleByNilLiteralP", "doubleValue"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "stringValue"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- !private ["s26ExpressibleByStringLiteralP", "doubleValue"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "stringValue"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "doubleValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "stringValue"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["s8HashableP", "Alamofire"]
+- !private ["s8HashableP", "BASE_IMAGE_URL"]
+- !private ["s8HashableP", "GET_POPULAR_URL"]
+- !private ["s8HashableP", "JSON"]
+- !private ["s8HashableP", "Movie"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "getAllImages"]
+- !private ["s8HashableP", "getPopularMovies"]
+- !private ["s8HashableP", "imagesArray"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "movies"]
+- !private ["s8HashableP", "viewDidLoad"]
+- !private ["10SwiftyJSON0B0V", "doubleValue"]
+- !private ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "stringValue"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s22LazyCollectionProtocolP", "doubleValue"]
+- !private ["s22LazyCollectionProtocolP", "stringValue"]
+- !private ["s20LazySequenceProtocolP", "doubleValue"]
+- !private ["s20LazySequenceProtocolP", "stringValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["5MovieAAV", "init"]
+- !private ["5MovieAAV", "posterPath"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["s17MutableCollectionP", "doubleValue"]
+- !private ["s17MutableCollectionP", "stringValue"]
+- !private ["So8NSCodingP", "Alamofire"]
+- !private ["So8NSCodingP", "BASE_IMAGE_URL"]
+- !private ["So8NSCodingP", "GET_POPULAR_URL"]
+- !private ["So8NSCodingP", "JSON"]
+- !private ["So8NSCodingP", "Movie"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "getAllImages"]
+- !private ["So8NSCodingP", "getPopularMovies"]
+- !private ["So8NSCodingP", "imagesArray"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "movies"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "Alamofire"]
+- !private ["So26NSExtensionRequestHandlingP", "BASE_IMAGE_URL"]
+- !private ["So26NSExtensionRequestHandlingP", "GET_POPULAR_URL"]
+- !private ["So26NSExtensionRequestHandlingP", "JSON"]
+- !private ["So26NSExtensionRequestHandlingP", "Movie"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "getAllImages"]
+- !private ["So26NSExtensionRequestHandlingP", "getPopularMovies"]
+- !private ["So26NSExtensionRequestHandlingP", "imagesArray"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "movies"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "Alamofire"]
+- !private ["So8NSObjectC", "BASE_IMAGE_URL"]
+- !private ["So8NSObjectC", "GET_POPULAR_URL"]
+- !private ["So8NSObjectC", "JSON"]
+- ["So8NSObjectC", "Movie"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "UIImageView"]
+- ["So8NSObjectC", "getAllImages"]
+- ["So8NSObjectC", "getPopularMovies"]
+- ["So8NSObjectC", "imageView"]
+- ["So8NSObjectC", "imagesArray"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "movies"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Alamofire"]
+- !private ["So16NSObjectProtocolP", "BASE_IMAGE_URL"]
+- !private ["So16NSObjectProtocolP", "GET_POPULAR_URL"]
+- !private ["So16NSObjectProtocolP", "JSON"]
+- !private ["So16NSObjectProtocolP", "Movie"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "getAllImages"]
+- !private ["So16NSObjectProtocolP", "getPopularMovies"]
+- !private ["So16NSObjectProtocolP", "imagesArray"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "movies"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- !private ["5Movie9PopularVCC", "Alamofire"]
+- !private ["5Movie9PopularVCC", "BASE_IMAGE_URL"]
+- !private ["5Movie9PopularVCC", "GET_POPULAR_URL"]
+- !private ["5Movie9PopularVCC", "JSON"]
+- ["5Movie9PopularVCC", "Movie"]
+- ["5Movie9PopularVCC", "UIImage"]
+- ["5Movie9PopularVCC", "UIImageView"]
+- ["5Movie9PopularVCC", "deinit"]
+- ["5Movie9PopularVCC", "getAllImages"]
+- ["5Movie9PopularVCC", "getPopularMovies"]
+- ["5Movie9PopularVCC", "imageView"]
+- ["5Movie9PopularVCC", "imagesArray"]
+- ["5Movie9PopularVCC", "init"]
+- ["5Movie9PopularVCC", "movies"]
+- ["5Movie9PopularVCC", "viewDidLoad"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s22RandomAccessCollectionP", "doubleValue"]
+- !private ["s22RandomAccessCollectionP", "stringValue"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "doubleValue"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "stringValue"]
+- !private ["s16RawRepresentableP", "doubleValue"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "stringValue"]
+- !private ["s16RawRepresentableP", "subscript"]
+- !private ["9Alamofire7RequestC", "responseImage"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "value"]
+- !private ["s8SequenceP", "append"]
+- !private ["s8SequenceP", "doubleValue"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "stringValue"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s5SliceV", "doubleValue"]
+- !private ["s5SliceV", "stringValue"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "Alamofire"]
+- !private ["So21UIAppearanceContainerP", "BASE_IMAGE_URL"]
+- !private ["So21UIAppearanceContainerP", "GET_POPULAR_URL"]
+- !private ["So21UIAppearanceContainerP", "JSON"]
+- !private ["So21UIAppearanceContainerP", "Movie"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "getAllImages"]
+- !private ["So21UIAppearanceContainerP", "getPopularMovies"]
+- !private ["So21UIAppearanceContainerP", "imagesArray"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "movies"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "Alamofire"]
+- !private ["So18UIContentContainerP", "BASE_IMAGE_URL"]
+- !private ["So18UIContentContainerP", "GET_POPULAR_URL"]
+- !private ["So18UIContentContainerP", "JSON"]
+- !private ["So18UIContentContainerP", "Movie"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "getAllImages"]
+- !private ["So18UIContentContainerP", "getPopularMovies"]
+- !private ["So18UIContentContainerP", "imagesArray"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "movies"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "Alamofire"]
+- !private ["So18UIFocusEnvironmentP", "BASE_IMAGE_URL"]
+- !private ["So18UIFocusEnvironmentP", "GET_POPULAR_URL"]
+- !private ["So18UIFocusEnvironmentP", "JSON"]
+- !private ["So18UIFocusEnvironmentP", "Movie"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "getAllImages"]
+- !private ["So18UIFocusEnvironmentP", "getPopularMovies"]
+- !private ["So18UIFocusEnvironmentP", "imagesArray"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "movies"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "Alamofire"]
+- !private ["So30UIPasteConfigurationSupportingP", "BASE_IMAGE_URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "GET_POPULAR_URL"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSON"]
+- !private ["So30UIPasteConfigurationSupportingP", "Movie"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "getAllImages"]
+- !private ["So30UIPasteConfigurationSupportingP", "getPopularMovies"]
+- !private ["So30UIPasteConfigurationSupportingP", "imagesArray"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "movies"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "Alamofire"]
+- !private ["So11UIResponderC", "BASE_IMAGE_URL"]
+- !private ["So11UIResponderC", "GET_POPULAR_URL"]
+- !private ["So11UIResponderC", "JSON"]
+- ["So11UIResponderC", "Movie"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "UIImageView"]
+- ["So11UIResponderC", "getAllImages"]
+- ["So11UIResponderC", "getPopularMovies"]
+- ["So11UIResponderC", "imageView"]
+- ["So11UIResponderC", "imagesArray"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "movies"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Alamofire"]
+- !private ["So30UIResponderStandardEditActionsP", "BASE_IMAGE_URL"]
+- !private ["So30UIResponderStandardEditActionsP", "GET_POPULAR_URL"]
+- !private ["So30UIResponderStandardEditActionsP", "JSON"]
+- !private ["So30UIResponderStandardEditActionsP", "Movie"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "getAllImages"]
+- !private ["So30UIResponderStandardEditActionsP", "getPopularMovies"]
+- !private ["So30UIResponderStandardEditActionsP", "imagesArray"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "movies"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "Alamofire"]
+- !private ["So16UIStateRestoringP", "BASE_IMAGE_URL"]
+- !private ["So16UIStateRestoringP", "GET_POPULAR_URL"]
+- !private ["So16UIStateRestoringP", "JSON"]
+- !private ["So16UIStateRestoringP", "Movie"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "getAllImages"]
+- !private ["So16UIStateRestoringP", "getPopularMovies"]
+- !private ["So16UIStateRestoringP", "imagesArray"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "movies"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "Alamofire"]
+- !private ["So18UITraitEnvironmentP", "BASE_IMAGE_URL"]
+- !private ["So18UITraitEnvironmentP", "GET_POPULAR_URL"]
+- !private ["So18UITraitEnvironmentP", "JSON"]
+- !private ["So18UITraitEnvironmentP", "Movie"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "getAllImages"]
+- !private ["So18UITraitEnvironmentP", "getPopularMovies"]
+- !private ["So18UITraitEnvironmentP", "imagesArray"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "movies"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So16UIViewControllerC", "Alamofire"]
+- !private ["So16UIViewControllerC", "BASE_IMAGE_URL"]
+- !private ["So16UIViewControllerC", "GET_POPULAR_URL"]
+- !private ["So16UIViewControllerC", "JSON"]
+- ["So16UIViewControllerC", "Movie"]
+- ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", "UIImageView"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "getAllImages"]
+- ["So16UIViewControllerC", "getPopularMovies"]
+- ["So16UIViewControllerC", "imageView"]
+- ["So16UIViewControllerC", "imagesArray"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "movies"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BASE_IMAGE_URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GET_POPULAR_URL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSON"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Movie"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getAllImages"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getPopularMovies"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "imagesArray"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movies"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON0B0V"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s22LazyCollectionProtocolP"
+- !private "s20LazySequenceProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "5MovieAAV"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "5Movie9PopularVCC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s16RawRepresentableP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- !private "s8SequenceP"
+- !private "s5SliceV"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/arm64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "0a98034d8d36625edcd352ee61e50211"

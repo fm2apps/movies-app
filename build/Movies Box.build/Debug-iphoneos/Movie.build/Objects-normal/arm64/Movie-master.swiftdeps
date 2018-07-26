@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "a8d10edd0bba6ce968bd0172ea56aae4"
+build_time: [1532528727, 451935000]
+inputs:
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/View/CustomSizeUIView.swift": [1532445463, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Model/Movie.swift": [1532509589, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/PopularVC.swift": [1532521268, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/TermsAndCondtitionsVC.swift": [1532523408, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/AboutAppVC.swift": [1532419827, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/TopratedVC.swift": [1532521286, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/View/AboutUsCell.swift": [1532525117, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/PopularTVShowsVC.swift": [1532521329, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/View/HelpCell.swift": [1532508463, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/View/MovieCell.swift": [1532089423, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/HelpVC.swift": [1532508640, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/NowPlayingVC.swift": [1532521286, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/AppDelegate.swift": [1532526247, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Utilities/Constants.swift": [1532527404, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/MovieDetailsVC.swift": [1532528725, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/AboutUsVC.swift": [1532525708, 0]

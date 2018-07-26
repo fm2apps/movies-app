@@ -1,0 +1,17 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "19d856c5c866147438a452be7de8980a"
+build_time: [1532007568, 391856000]
+inputs:
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Model/Movie.swift": [1531922189, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/PopularVC.swift": [1532004069, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/TermsAndCondtitionsVC.swift": [1532006963, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/AboutAppVC.swift": [1532007201, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/View/AboutUsCell.swift": [1532005720, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/FavouritesVC.swift": [1531920601, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/View/HelpCell.swift": [1532004692, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/HelpVC.swift": [1532007232, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/TopRatedVC.swift": [1531997722, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/AppDelegate.swift": [1532007566, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Utilities/Constants.swift": [1532007082, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/MovieDetailsVC.swift": [1532004549, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Movie/Controller/AboutUsVC.swift": [1532006985, 0]
