@@ -4,12 +4,12 @@
   'roots': [
     {
       'type': 'directory',
-      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers",
+      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "Alamofire-Swift.h",
-          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
         },
         {
           'type': 'file',
@@ -20,23 +20,23 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules",
+      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Pods.build/Debug-iphoneos/Alamofire.build/module.modulemap"
+          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers",
+      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "AlamofireImage-Swift.h",
-          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
         },
         {
           'type': 'file',
@@ -47,18 +47,18 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules",
+      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Pods.build/Debug-iphoneos/AlamofireImage.build/module.modulemap"
+          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Pods.build/Debug-iphonesimulator/AlamofireImage.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Pods_Movie.framework/Headers",
+      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Pods_Movie.framework/Headers",
       'contents': [
         {
           'type': 'file',
@@ -68,29 +68,29 @@
         {
           'type': 'file',
           'name': "Pods_Movie-Swift.h",
-          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Pods_Movie.framework/Headers/Pods_Movie-Swift.h"
+          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Pods_Movie.framework/Headers/Pods_Movie-Swift.h"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Pods_Movie.framework/Modules",
+      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Pods_Movie.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Pods.build/Debug-iphoneos/Pods-Movie.build/module.modulemap"
+          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Pods.build/Debug-iphonesimulator/Pods-Movie.build/module.modulemap"
         }
       ]
     },
     {
       'type': 'directory',
-      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers",
+      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers",
       'contents': [
         {
           'type': 'file',
           'name': "SwiftyJSON-Swift.h",
-          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
         },
         {
           'type': 'file',
@@ -101,12 +101,12 @@
     },
     {
       'type': 'directory',
-      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules",
+      'name': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules",
       'contents': [
         {
           'type': 'file',
           'name': "module.modulemap",
-          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Pods.build/Debug-iphoneos/SwiftyJSON.build/module.modulemap"
+          'external-contents': "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Pods.build/Debug-iphonesimulator/SwiftyJSON.build/module.modulemap"
         }
       ]
     }

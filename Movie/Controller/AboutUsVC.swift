@@ -29,7 +29,7 @@ class AboutUsVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let titleArray = ["Who We Are ?", "Our Services", "Contact Us", "Head Office", "Email", "Working Hours"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        topView.configureSize()
+        //topView.configureSize()
         textTableView.estimatedRowHeight = 150
         textTableView.rowHeight = UITableViewAutomaticDimension
         textTableView.delegate = self

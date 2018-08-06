@@ -13,7 +13,7 @@ class AboutAppVC: UIViewController {
     @IBOutlet weak var topView: CustomSizeUIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        topView.configureSize()
+        //topView.configureSize()
     }
 
 

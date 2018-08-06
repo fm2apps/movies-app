@@ -1,62 +1,137 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "calendar"
+- "currentYearInt"
 - "BASE_IMAGE_URL"
 - "GET_POPULAR_URL"
 - "GET_NOWPLAYING_URL"
-- "GET_COMINGSOON_URL"
 - "GET_TOPRATED_URL"
 - "GET_POPULARTV_URL"
 - "TO_ABOUT_US"
 - "TO_TERMS"
 - "TO_ABOUT_MOVIES"
 - "BASE_BACKDROP_URL"
+- "SEARCH_URL"
+- "GENRE_POPULAR"
+- "GENRE_RELEASEDATE"
+- "GENRE_WITH_NO_SORT"
+- "GENRE_WITHMIN_RELEASE_DATE"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - "BASE_BACKDROP_URL"
 - "BASE_IMAGE_URL"
-- "GET_COMINGSOON_URL"
+- "Date"
+- "GENRE_POPULAR"
+- "GENRE_RELEASEDATE"
+- "GENRE_WITHMIN_RELEASE_DATE"
+- "GENRE_WITH_NO_SORT"
 - "GET_NOWPLAYING_URL"
 - "GET_POPULARTV_URL"
 - "GET_POPULAR_URL"
 - "GET_TOPRATED_URL"
+- "NSCalendar"
+- "SEARCH_URL"
 - "StringLiteralType"
 - "TO_ABOUT_MOVIES"
 - "TO_ABOUT_US"
 - "TO_TERMS"
+- "calendar"
+- "currentYearInt"
 depends-member:
 - ["s23BidirectionalCollectionP", "init"]
+- ["s7CVarArgP", "Identifier"]
+- ["s7CVarArgP", "Unit"]
+- ["s7CVarArgP", "component"]
 - ["s7CVarArgP", "init"]
 - ["s10CollectionP", "init"]
 - ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Identifier"]
+- ["s28CustomDebugStringConvertibleP", "Unit"]
+- ["s28CustomDebugStringConvertibleP", "component"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
 - ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Identifier"]
+- ["s23CustomStringConvertibleP", "Unit"]
+- ["s23CustomStringConvertibleP", "component"]
 - ["s23CustomStringConvertibleP", "init"]
+- ["10Foundation4DateV", "init"]
 - ["s9DecodableP", "init"]
 - ["s9EncodableP", "init"]
+- ["s9EquatableP", "Identifier"]
+- ["s9EquatableP", "Unit"]
+- ["s9EquatableP", "component"]
+- ["s9EquatableP", "gregorian"]
 - ["s9EquatableP", "init"]
+- ["s9EquatableP", "year"]
+- ["s25ExpressibleByArrayLiteralP", "year"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "Identifier"]
+- ["s8HashableP", "Unit"]
+- ["s8HashableP", "component"]
+- ["s8HashableP", "gregorian"]
 - ["s8HashableP", "init"]
+- ["So10NSCalendarC10IdentifierV", "gregorian"]
 - ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
+- ["So10NSCalendarC", "Identifier"]
+- ["So10NSCalendarC", "Unit"]
+- ["So10NSCalendarC", "component"]
+- ["So10NSCalendarC", "init"]
+- ["So8NSCodingP", "Identifier"]
+- ["So8NSCodingP", "Unit"]
+- ["So8NSCodingP", "component"]
+- ["So8NSCodingP", "init"]
+- ["So9NSCopyingP", "Identifier"]
+- ["So9NSCopyingP", "Unit"]
+- ["So9NSCopyingP", "component"]
+- ["So9NSCopyingP", "init"]
+- ["So8NSObjectC", "Identifier"]
+- ["So8NSObjectC", "Unit"]
+- ["So8NSObjectC", "component"]
+- ["So8NSObjectC", "init"]
+- ["So16NSObjectProtocolP", "Identifier"]
+- ["So16NSObjectProtocolP", "Unit"]
+- ["So16NSObjectProtocolP", "component"]
+- ["So16NSObjectProtocolP", "init"]
+- ["So14NSSecureCodingP", "Identifier"]
+- ["So14NSSecureCodingP", "Unit"]
+- ["So14NSSecureCodingP", "component"]
+- ["So14NSSecureCodingP", "init"]
+- ["s9OptionSetP", "year"]
 - ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "gregorian"]
+- ["s16RawRepresentableP", "year"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
 - ["s8SequenceP", "init"]
+- ["s10SetAlgebraP", "year"]
 - ["SS", "init"]
 - ["s14StringProtocolP", "init"]
 - ["s16TextOutputStreamP", "init"]
 - ["s20TextOutputStreamableP", "init"]
 - ["9Alamofire14URLConvertibleP", "init"]
+- ["So10NSCalendarC4UnitV", "year"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Identifier"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Unit"]
+- ["s35_HasCustomAnyHashableRepresentationP", "component"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Identifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Unit"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "component"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["s21_ObjectiveCBridgeableP", "gregorian"]
 - ["s21_ObjectiveCBridgeableP", "init"]
+- ["s20_SwiftNewtypeWrapperP", "gregorian"]
 - ["s16_SwiftStringViewP", "init"]
 depends-nominal:
 - "s23BidirectionalCollectionP"
@@ -67,33 +142,51 @@ depends-nominal:
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
 - "s9DecodableP"
 - "s9EncodableP"
 - "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - "s8HashableP"
+- "So10NSCalendarC10IdentifierV"
 - "10SwiftyJSON17JSONSubscriptTypeP"
 - "s25LosslessStringConvertibleP"
 - "s10MirrorPathP"
+- "So10NSCalendarC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "s9OptionSetP"
 - "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "10Foundation20ReferenceConvertibleP"
 - "s8SequenceP"
+- "s10SetAlgebraP"
 - "SS"
 - "s14StringProtocolP"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - "9Alamofire14URLConvertibleP"
+- "So10NSCalendarC4UnitV"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
 - "s21_ObjectiveCBridgeableP"
+- "s20_SwiftNewtypeWrapperP"
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.apinotesc"
 - "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
 - "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/arm64.swiftmodule"
 - "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
@@ -107,6 +200,7 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/os.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
@@ -131,4 +225,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
-interface-hash: "9047fcebccacd31233f798ed845ebfc8"
+interface-hash: "cda89dc33b7131e9988c34440f94bd82"

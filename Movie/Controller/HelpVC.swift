@@ -18,7 +18,7 @@ class HelpVC: UIViewController, UITableViewDelegate, UITableViewDataSource,MFMai
     let helpTableImages = [UIImage(named: "movie-icon"),UIImage(named: "FM2Apps"),UIImage(named: "feed-back")]
     override func viewDidLoad() {
         super.viewDidLoad()
-        topView.configureSize()
+        //topView.configureSize()
         helpTableView.delegate = self
         helpTableView.dataSource = self
     }

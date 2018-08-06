@@ -166,8 +166,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 @import Foundation;
 @import CoreGraphics;
-@import MessageUI;
 @import ObjectiveC;
+@import MessageUI;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -249,7 +249,50 @@ SWIFT_CLASS("_TtC5Movie16CustomSizeUIView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+SWIFT_CLASS("_TtC5Movie14FavouriteMovie")
+@interface FavouriteMovie : NSObject <NSCoding>
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+@end
+
+@class UICollectionView;
 @class UIImageView;
+@class UICollectionViewCell;
+@class UICollectionViewLayout;
+@class UIStoryboardSegue;
+
+SWIFT_CLASS("_TtC5Movie12FavouritesVC")
+@interface FavouritesVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified noFavLabel;
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified moviesCollectionView;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified noFavImage;
+@property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified customSizeUIView;
+- (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
+- (IBAction)backButtonPressed:(UIButton * _Nonnull)sender;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Movie9GenreCell")
+@interface GenreCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified genreLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC5Movie8HelpCell")
 @interface HelpCell : UITableViewCell
@@ -285,17 +328,33 @@ SWIFT_CLASS("_TtC5Movie9MovieCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIActivityIndicatorView;
 @class UIScrollView;
+@class UISegmentedControl;
 @class MyTapGesture;
 
 SWIFT_CLASS("_TtC5Movie14MovieDetailsVC")
-@interface MovieDetailsVC : UIViewController <UIGestureRecognizerDelegate>
+@interface MovieDetailsVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UIGestureRecognizerDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingActivity;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified loadingLabel;
 @property (nonatomic, weak) IBOutlet UIScrollView * _Null_unspecified movieScrollView;
 @property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified customUIView;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified movieTitleLabel;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified reviewsTableView;
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified moviesCollectionView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified noReviewsLabel;
 - (void)viewDidLoad;
 - (IBAction)backButtonPressed:(UIButton * _Nonnull)sender;
+- (void)indexChanged:(UISegmentedControl * _Nonnull)sender;
+- (void)favouriteButtonClicked;
 - (void)trailerTappedWithSender:(MyTapGesture * _Nonnull)sender;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -306,12 +365,11 @@ SWIFT_CLASS("_TtC5Movie12MyTapGesture")
 - (nonnull instancetype)initWithTarget:(id _Nullable)target action:(SEL _Nullable)action OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
-@class UICollectionViewLayout;
-@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC5Movie12NowPlayingVC")
 @interface NowPlayingVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingActivity;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified loadingLabel;
 @property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified topView;
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified moviesCollectionView;
 - (void)viewDidLoad;
@@ -327,6 +385,8 @@ SWIFT_CLASS("_TtC5Movie12NowPlayingVC")
 
 SWIFT_CLASS("_TtC5Movie16PopularTVShowsVC")
 @interface PopularTVShowsVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingActivity;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified loadingLabel;
 @property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified topView;
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified moviesCollectionView;
 - (void)viewDidLoad;
@@ -342,6 +402,8 @@ SWIFT_CLASS("_TtC5Movie16PopularTVShowsVC")
 
 SWIFT_CLASS("_TtC5Movie9PopularVC")
 @interface PopularVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingActivity;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified loadingLabel;
 @property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified topView;
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified moviesCollectionView;
 - (void)viewDidLoad;
@@ -355,14 +417,67 @@ SWIFT_CLASS("_TtC5Movie9PopularVC")
 @end
 
 
-SWIFT_CLASS("_TtC5Movie20TermsAndConditionsVC")
-@interface TermsAndConditionsVC : UIViewController <UITableViewDataSource, UITableViewDelegate>
-@property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified topView;
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+SWIFT_CLASS("_TtC5Movie11ReviewsCell")
+@interface ReviewsCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified reviewerLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified contentLabel;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC5Movie13RoundedButton")
+@interface RoundedButton : UIButton
+@property (nonatomic) CGFloat cornerRadius;
+- (void)awakeFromNib;
+- (void)prepareForInterfaceBuilder;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UISearchBar;
+@class UISwitch;
+@class NSLayoutConstraint;
+
+SWIFT_CLASS("_TtC5Movie8SearchVC")
+@interface SearchVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate>
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified genreTableView;
+@property (nonatomic, strong) IBOutlet UIView * _Null_unspecified myView;
+@property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified nameView;
+@property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified newestSwtich;
+@property (nonatomic, weak) IBOutlet UISwitch * _Null_unspecified popularitySwitch;
+@property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified customUIView;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified searchOptionSegment;
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingActivity;
+@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified movieConstraint;
+@property (nonatomic, weak) IBOutlet RoundedButton * _Null_unspecified chooseButton;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified genreView;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified loadingLabel;
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified moviesCollectionView;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)popSwitchChanged;
+- (void)newSwitchChangedWithSwitchState:(UISwitch * _Nonnull)switchState;
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
 - (IBAction)backButtonPressed:(UIButton * _Nonnull)sender;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)indexChanged:(UISegmentedControl * _Nonnull)sender;
+- (void)searchBarTextDidBeginEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarTextDidEndEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (IBAction)chooseButtonPressed:(UIButton * _Nonnull)sender;
+- (IBAction)searchGenreButtonPressed:(UIButton * _Nonnull)sender;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -370,6 +485,8 @@ SWIFT_CLASS("_TtC5Movie20TermsAndConditionsVC")
 
 SWIFT_CLASS("_TtC5Movie10TopratedVC")
 @interface TopratedVC : UIViewController <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@property (nonatomic, weak) IBOutlet UIActivityIndicatorView * _Null_unspecified loadingActivity;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified loadingLabel;
 @property (nonatomic, weak) IBOutlet CustomSizeUIView * _Null_unspecified topView;
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified moviesCollectionView;
 - (void)viewDidLoad;
@@ -381,6 +498,8 @@ SWIFT_CLASS("_TtC5Movie10TopratedVC")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

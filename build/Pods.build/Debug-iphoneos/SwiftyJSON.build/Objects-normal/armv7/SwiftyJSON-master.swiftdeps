@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "8c25bb8e478136018b6ed603b626fc1b"
+build_time: [1533324820, 150233000]
+inputs:
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1531918566, 0]

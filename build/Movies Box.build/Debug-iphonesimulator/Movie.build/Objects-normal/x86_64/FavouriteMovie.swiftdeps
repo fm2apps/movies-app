@@ -1,0 +1,474 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FavouriteMovie"
+provides-nominal:
+- "5Movie09FavouriteA0C"
+provides-member:
+- ["5Movie09FavouriteA0C", ""]
+provides-dynamic-lookup:
+- "encode"
+- "isEqual"
+depends-top-level:
+- !private "&&"
+- !private "=="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Data"
+- "FavouriteMovie"
+- "FileManager"
+- !private "KeyValues"
+- "NSCoder"
+- "NSCoding"
+- "NSObject"
+- !private "OSLog"
+- "String"
+- "StringLiteralType"
+- "UIImage"
+- !private "UIImageJPEGRepresentation"
+- !private "os_log"
+depends-member:
+- ["Sa", "first"]
+- ["s23BidirectionalCollectionP", "first"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "DocumentsDirectory"]
+- ["s7CVarArgP", "FileManager"]
+- !private ["s7CVarArgP", "KeyValues"]
+- !private ["s7CVarArgP", "OSLog"]
+- !private ["s7CVarArgP", "UIImage"]
+- !private ["s7CVarArgP", "UIImageJPEGRepresentation"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "backdropPath"]
+- !private ["s7CVarArgP", "decodeObject"]
+- !private ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "encodeWithCoder"]
+- ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "id"]
+- !private ["s7CVarArgP", "image"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "movieOrTV"]
+- !private ["s7CVarArgP", "os_log"]
+- !private ["s7CVarArgP", "overview"]
+- !private ["s7CVarArgP", "rating"]
+- !private ["s7CVarArgP", "releaseDate"]
+- !private ["s7CVarArgP", "title"]
+- ["s7CVarArgP", "urls"]
+- ["s10CollectionP", "first"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- ["s28CustomDebugStringConvertibleP", "DocumentsDirectory"]
+- ["s28CustomDebugStringConvertibleP", "FileManager"]
+- !private ["s28CustomDebugStringConvertibleP", "KeyValues"]
+- !private ["s28CustomDebugStringConvertibleP", "OSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImage"]
+- !private ["s28CustomDebugStringConvertibleP", "UIImageJPEGRepresentation"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "backdropPath"]
+- !private ["s28CustomDebugStringConvertibleP", "decodeObject"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "encodeWithCoder"]
+- ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "id"]
+- !private ["s28CustomDebugStringConvertibleP", "image"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "movieOrTV"]
+- !private ["s28CustomDebugStringConvertibleP", "os_log"]
+- !private ["s28CustomDebugStringConvertibleP", "overview"]
+- !private ["s28CustomDebugStringConvertibleP", "rating"]
+- !private ["s28CustomDebugStringConvertibleP", "releaseDate"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- ["s28CustomDebugStringConvertibleP", "urls"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "appendingPathComponent"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "first"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "DocumentsDirectory"]
+- ["s23CustomStringConvertibleP", "FileManager"]
+- !private ["s23CustomStringConvertibleP", "KeyValues"]
+- !private ["s23CustomStringConvertibleP", "OSLog"]
+- !private ["s23CustomStringConvertibleP", "UIImage"]
+- !private ["s23CustomStringConvertibleP", "UIImageJPEGRepresentation"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "backdropPath"]
+- !private ["s23CustomStringConvertibleP", "decodeObject"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "encodeWithCoder"]
+- ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "id"]
+- !private ["s23CustomStringConvertibleP", "image"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "movieOrTV"]
+- !private ["s23CustomStringConvertibleP", "os_log"]
+- !private ["s23CustomStringConvertibleP", "overview"]
+- !private ["s23CustomStringConvertibleP", "rating"]
+- !private ["s23CustomStringConvertibleP", "releaseDate"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- ["s23CustomStringConvertibleP", "urls"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "appendingPathComponent"]
+- ["s9DecodableP", "first"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "appendingPathComponent"]
+- ["s9EncodableP", "first"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "DocumentsDirectory"]
+- ["s9EquatableP", "FileManager"]
+- !private ["s9EquatableP", "KeyValues"]
+- !private ["s9EquatableP", "OSLog"]
+- !private ["s9EquatableP", "UIImage"]
+- !private ["s9EquatableP", "UIImageJPEGRepresentation"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "appendingPathComponent"]
+- !private ["s9EquatableP", "backdropPath"]
+- !private ["s9EquatableP", "debug"]
+- !private ["s9EquatableP", "decodeObject"]
+- !private ["s9EquatableP", "default"]
+- ["s9EquatableP", "documentDirectory"]
+- ["s9EquatableP", "encode"]
+- ["s9EquatableP", "encodeWithCoder"]
+- ["s9EquatableP", "first"]
+- !private ["s9EquatableP", "id"]
+- !private ["s9EquatableP", "image"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "movieOrTV"]
+- !private ["s9EquatableP", "os_log"]
+- !private ["s9EquatableP", "overview"]
+- !private ["s9EquatableP", "rating"]
+- !private ["s9EquatableP", "releaseDate"]
+- !private ["s9EquatableP", "title"]
+- ["s9EquatableP", "urls"]
+- ["s9EquatableP", "userDomainMask"]
+- ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "userDomainMask"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["5Movie09FavouriteA0C", "ArchiveURL"]
+- ["5Movie09FavouriteA0C", "Bool"]
+- !private ["5Movie09FavouriteA0C", "Data"]
+- ["5Movie09FavouriteA0C", "DocumentsDirectory"]
+- !private ["5Movie09FavouriteA0C", "FavouriteMovie"]
+- ["5Movie09FavouriteA0C", "FileManager"]
+- !private ["5Movie09FavouriteA0C", "KeyValues"]
+- ["5Movie09FavouriteA0C", "NSCoder"]
+- !private ["5Movie09FavouriteA0C", "OSLog"]
+- ["5Movie09FavouriteA0C", "String"]
+- ["5Movie09FavouriteA0C", "UIImage"]
+- !private ["5Movie09FavouriteA0C", "UIImageJPEGRepresentation"]
+- ["5Movie09FavouriteA0C", "backdropPath"]
+- ["5Movie09FavouriteA0C", "deinit"]
+- ["5Movie09FavouriteA0C", "encode"]
+- ["5Movie09FavouriteA0C", "encodeWithCoder"]
+- ["5Movie09FavouriteA0C", "id"]
+- ["5Movie09FavouriteA0C", "image"]
+- ["5Movie09FavouriteA0C", "init"]
+- ["5Movie09FavouriteA0C", "isEqual"]
+- ["5Movie09FavouriteA0C", "movieOrTV"]
+- !private ["5Movie09FavouriteA0C", "os_log"]
+- ["5Movie09FavouriteA0C", "overview"]
+- ["5Movie09FavouriteA0C", "rating"]
+- ["5Movie09FavouriteA0C", "releaseDate"]
+- ["5Movie09FavouriteA0C", "title"]
+- ["So11FileManagerC", "init"]
+- ["So11FileManagerC", "urls"]
+- ["s8HashableP", "DocumentsDirectory"]
+- ["s8HashableP", "FileManager"]
+- !private ["s8HashableP", "KeyValues"]
+- !private ["s8HashableP", "OSLog"]
+- !private ["s8HashableP", "UIImage"]
+- !private ["s8HashableP", "UIImageJPEGRepresentation"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "appendingPathComponent"]
+- !private ["s8HashableP", "backdropPath"]
+- !private ["s8HashableP", "decodeObject"]
+- !private ["s8HashableP", "default"]
+- ["s8HashableP", "documentDirectory"]
+- ["s8HashableP", "encode"]
+- ["s8HashableP", "encodeWithCoder"]
+- !private ["s8HashableP", "id"]
+- !private ["s8HashableP", "image"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "movieOrTV"]
+- !private ["s8HashableP", "os_log"]
+- !private ["s8HashableP", "overview"]
+- !private ["s8HashableP", "rating"]
+- !private ["s8HashableP", "releaseDate"]
+- !private ["s8HashableP", "title"]
+- ["s8HashableP", "urls"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["5Movie9KeyValuesV", "backdropPath"]
+- !private ["5Movie9KeyValuesV", "id"]
+- !private ["5Movie9KeyValuesV", "image"]
+- !private ["5Movie9KeyValuesV", "movieOrTV"]
+- !private ["5Movie9KeyValuesV", "overview"]
+- !private ["5Movie9KeyValuesV", "releaseDate"]
+- !private ["5Movie9KeyValuesV", "title"]
+- !private ["5Movie9KeyValuesV", "votingAvg"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s17MutableCollectionP", "first"]
+- !private ["So7NSCoderC", "decodeObject"]
+- !private ["So7NSCoderC", "encode"]
+- ["So8NSCodingP", "DocumentsDirectory"]
+- ["So8NSCodingP", "FileManager"]
+- !private ["So8NSCodingP", "KeyValues"]
+- !private ["So8NSCodingP", "OSLog"]
+- !private ["So8NSCodingP", "UIImage"]
+- !private ["So8NSCodingP", "UIImageJPEGRepresentation"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "backdropPath"]
+- ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "encodeWithCoder"]
+- !private ["So8NSCodingP", "id"]
+- !private ["So8NSCodingP", "image"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "movieOrTV"]
+- !private ["So8NSCodingP", "os_log"]
+- !private ["So8NSCodingP", "overview"]
+- !private ["So8NSCodingP", "rating"]
+- !private ["So8NSCodingP", "releaseDate"]
+- !private ["So8NSCodingP", "title"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "ArchiveURL"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Data"]
+- ["So8NSObjectC", "DocumentsDirectory"]
+- !private ["So8NSObjectC", "FavouriteMovie"]
+- ["So8NSObjectC", "FileManager"]
+- !private ["So8NSObjectC", "KeyValues"]
+- ["So8NSObjectC", "NSCoder"]
+- !private ["So8NSObjectC", "OSLog"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIImage"]
+- !private ["So8NSObjectC", "UIImageJPEGRepresentation"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "backdropPath"]
+- !private ["So8NSObjectC", "decodeObject"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "encode"]
+- ["So8NSObjectC", "encodeWithCoder"]
+- ["So8NSObjectC", "id"]
+- ["So8NSObjectC", "image"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "isEqual"]
+- ["So8NSObjectC", "movieOrTV"]
+- !private ["So8NSObjectC", "os_log"]
+- ["So8NSObjectC", "overview"]
+- ["So8NSObjectC", "rating"]
+- ["So8NSObjectC", "releaseDate"]
+- ["So8NSObjectC", "title"]
+- ["So8NSObjectC", "urls"]
+- ["So16NSObjectProtocolP", "DocumentsDirectory"]
+- ["So16NSObjectProtocolP", "FileManager"]
+- !private ["So16NSObjectProtocolP", "KeyValues"]
+- !private ["So16NSObjectProtocolP", "OSLog"]
+- !private ["So16NSObjectProtocolP", "UIImage"]
+- !private ["So16NSObjectProtocolP", "UIImageJPEGRepresentation"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "backdropPath"]
+- !private ["So16NSObjectProtocolP", "decodeObject"]
+- !private ["So16NSObjectProtocolP", "default"]
+- ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "encodeWithCoder"]
+- !private ["So16NSObjectProtocolP", "id"]
+- !private ["So16NSObjectProtocolP", "image"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "movieOrTV"]
+- !private ["So16NSObjectProtocolP", "os_log"]
+- !private ["So16NSObjectProtocolP", "overview"]
+- !private ["So16NSObjectProtocolP", "rating"]
+- !private ["So16NSObjectProtocolP", "releaseDate"]
+- !private ["So16NSObjectProtocolP", "title"]
+- ["So16NSObjectProtocolP", "urls"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So5OSLogC", "default"]
+- !private ["SC9OSLogTypeV", "debug"]
+- ["s9OptionSetP", "userDomainMask"]
+- ["s22RandomAccessCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "first"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s16RawRepresentableP", "debug"]
+- ["s16RawRepresentableP", "documentDirectory"]
+- ["s16RawRepresentableP", "userDomainMask"]
+- ["10Foundation20ReferenceConvertibleP", "appendingPathComponent"]
+- ["So11FileManagerC19SearchPathDirectoryO", "documentDirectory"]
+- ["So11FileManagerC20SearchPathDomainMaskV", "userDomainMask"]
+- ["s8SequenceP", "first"]
+- ["s8SequenceP", "init"]
+- ["s10SetAlgebraP", "userDomainMask"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- ["10Foundation3URLV", "appendingPathComponent"]
+- ["9Alamofire14URLConvertibleP", "appendingPathComponent"]
+- ["9Alamofire14URLConvertibleP", "init"]
+- ["s14_ArrayProtocolP", "first"]
+- ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s34_ExpressibleByFileReferenceLiteralP", "appendingPathComponent"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DocumentsDirectory"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FileManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "KeyValues"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "OSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImageJPEGRepresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backdropPath"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decodeObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "encodeWithCoder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "id"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "movieOrTV"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "os_log"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "overview"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rating"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "releaseDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "urls"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
+- ["s21_ObjectiveCBridgeableP", "first"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "5Movie09FavouriteA0C"
+- "So11FileManagerC"
+- "s8HashableP"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "5Movie9KeyValuesV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "s17MutableCollectionP"
+- !private "So7NSCoderC"
+- "So8NSCodingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So5OSLogC"
+- !private "SC9OSLogTypeV"
+- "s9OptionSetP"
+- "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "10Foundation20ReferenceConvertibleP"
+- "So11FileManagerC19SearchPathDirectoryO"
+- "So11FileManagerC20SearchPathDomainMaskV"
+- "s8SequenceP"
+- "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- "10Foundation3URLV"
+- "9Alamofire14URLConvertibleP"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.apinotesc"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/AlamofireImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/os.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Headers/AlamofireImage-Swift.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/AlamofireImage/AlamofireImage.framework/Modules/module.modulemap"
+- "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/build/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "ad9b95a75493512a1e8d7fb9448fb388"

@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "ce79e327cd199d0c1ce83b5944401b07"
+build_time: [1533324820, 164176000]
+inputs:
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/AFError.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/Alamofire.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/MultipartFormData.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/Notifications.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/ParameterEncoding.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/Request.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/Response.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/ResponseSerialization.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/Result.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/SessionDelegate.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/SessionManager.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/TaskDelegate.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/Timeline.swift": [1531918547, 0]
+  "/Users/kareemismail/XCodeProjects/FM2Apps/Movie/Pods/Alamofire/Source/Validation.swift": [1531918547, 0]

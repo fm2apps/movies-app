@@ -22,6 +22,6 @@ class CustomSizeUIView: UIView {
         else {
             self.frame.size.height = 90
         }
+        self.setNeedsDisplay()
     }
-
 }
